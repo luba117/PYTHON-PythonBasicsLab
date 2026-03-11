@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+wheelhouse/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+.pyenv/
+venv.bak/
+
+# Logs
+logs/
+*.log
+
+# Test / coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# macOS / Windows artifacts
+.DS_Store
+Thumbs.db
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# mypy / static analysis
+.mypy_cache/
+.dmypy.json
+
+# celery beat schedule file
+celerybeat-schedule
+
+# Coverage reports
+coverage.xml
+nosetests.xml
+
+# tox
+.cache/
+
+# Editor backup files
+*~
+*.tmp
+*.swp
+
+# Environment variables
+.env
+.env.*.local
