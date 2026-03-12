@@ -4,6 +4,7 @@ from datetime import datetime
 
 from calculator import Calculator
 from control_flow import if_demo, for_demo, while_demo
+from lists_generator_demo import list_vs_generator_demo
 
 
 log_directory = "logs"
@@ -184,6 +185,7 @@ def main():
     task2_calculator_demo()
     task3_control_flow_demo()   
     task8_github_ready()
+    list_vs_generator_demo()
     
     # Verify logging
     verify_logging()

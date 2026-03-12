@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="PythonBasicsLab\lists_generator_demo.py" />
     <Compile Include="PythonBasicsLab\run_tests.py" />
     <Compile Include="PythonBasicsLab\calculator.py" />
     <Compile Include="PythonBasicsLab\data_types_demo.py" />
